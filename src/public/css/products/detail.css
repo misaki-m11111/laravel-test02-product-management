@@ -1,0 +1,144 @@
+.product-update {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.product-update__breadcrumb {
+    align-self: flex-start;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.product-update__breadcrumb a {
+    text-decoration: none;
+    color: #4da3ff;
+}
+
+.product-update__form {
+    background: #fff;
+    padding: 50px 60px;
+    border-radius: 10px;
+}
+
+.product-update__inner {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+.product-update__image-area {
+    width: 40%;
+}
+
+.product-update__image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-update__info {
+    flex: 1;
+}
+
+.product-update__group {
+    margin-bottom: 28px;
+}
+
+.product-update__group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.product-update__group input[type="text"],
+.product-update__group input[type="number"] {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+
+.product-update__group--season {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product-update__checkbox {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.product-update__description {
+    margin-bottom: 50px;
+}
+
+.product-update__description textarea {
+    width: 100%;
+    height: 130px;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.product-update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-update__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.product-update__delete-form {
+    margin-top: -85px;
+    margin-left: 420px;
+}
+
+.product-update__button--back {
+    background: #e0e0e0;
+    padding: 12px 60px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.product-update__button--submit {
+    background: #f5c400;
+    padding: 12px 60px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.product-update__button--delete {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: red;
+}
+
+.error__message {
+    color: red;
+    font-size: 13px;
+    margin-top: 6px;
+}

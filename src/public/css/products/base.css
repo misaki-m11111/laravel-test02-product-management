@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+.header {
+  background-color: #fff;
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #f5c400;
+  font-style: italic;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.page-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.add-button {
+  background-color: #f6a623;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-card a:hover {
+  text-decoration: none;
+}
+
+
