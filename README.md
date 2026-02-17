@@ -40,7 +40,8 @@ Dockerビルド
 ・Nginx 1.21  
 
 ## ER図
-<img width="771" height="941" alt="contact-form-er" src="https://github.com/user-attachments/assets/b8120033-e0fb-4cd3-a0d3-335bf47df530" />
+
+<img width="841" height="960" alt="product-managementer-er" src="https://github.com/user-attachments/assets/afaf0f8e-f918-4184-acc9-ace90adb1ba6" />
 
 ## URL
 ・商品一覧画面：http://localhost/products  
