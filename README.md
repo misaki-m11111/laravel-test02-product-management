@@ -9,7 +9,7 @@ Dockerビルド
 
 ```bash
 ・git clone https://github.com/misaki-m11111/laravel-test02-product-management.git
-・cd laravel-contact-form-test
+・cd laravel-test02-product-management
 ・docker compose up -d --build
 ```
 
